@@ -30,7 +30,7 @@
 
 	<nav class="navbar navbar-expand navbar-dark bg-dark static-top">
 
-		<a class="navbar-brand mr-1" href="main.jsp">Start Bootstrap</a>
+		<a class="navbar-brand mr-1" href="main">Start Bootstrap</a>
 
 		<button class="btn btn-link btn-sm text-white order-1 order-sm-0"
 			id="sidebarToggle" href="#">
@@ -104,7 +104,7 @@
 		<!-- Sidebar -->
 		<ul class="sidebar navbar-nav">
 			<li class="nav-item active"><a class="nav-link"
-				href="main.html"> <i class="fas fa-fw fa-tachometer-alt"></i> <span>Dashboard</span>
+				href="main"> <i class="fas fa-fw fa-tachometer-alt"></i> <span>Dashboard</span>
 			</a></li>
 			<li class="nav-item dropdown"><a
 				class="nav-link dropdown-toggle" href="#" id="pagesDropdown"
@@ -122,10 +122,10 @@
 					<a class="dropdown-item" href="404.html">404 Page</a> <a
 						class="dropdown-item" href="blank.html">Blank Page</a>
 				</div></li>
-			<li class="nav-item"><a class="nav-link" href="charts.html">
+			<li class="nav-item"><a class="nav-link" href="charts">
 					<i class="fas fa-fw fa-chart-area"></i> <span>Charts</span>
 			</a></li>
-			<li class="nav-item"><a class="nav-link" href="tables.html">
+			<li class="nav-item"><a class="nav-link" href="tables">
 					<i class="fas fa-fw fa-table"></i> <span>Tables</span>
 			</a></li>
 		</ul>
@@ -750,7 +750,7 @@
 				<div class="modal-footer">
 					<button class="btn btn-secondary" type="button"
 						data-dismiss="modal">Cancel</button>
-					<a class="btn btn-primary" href="login">Logout</a>
+					<a class="btn btn-primary" href="index">Logout</a>
 				</div>
 			</div>
 		</div>
@@ -817,8 +817,8 @@
 	<script src="<c:url value="/resources/vendor/datatables/dataTables.bootstrap4.js"/>"></script>
 
 	<!-- Custom scripts for all pages-->
-	<script src="<c:url value="/resources/js/sb-admin.min.js"/>js/sb-admin.min.js"></script>
-
+	<script src="<c:url value="/resources/js/sb-admin.min.js"/>"></script>
+ 
 	<!-- Demo scripts for this page-->
 	<script src="<c:url value="/resources/js/demo/datatables-demo.js"/>"></script>
 	<script src="<c:url value="/resources/js/demo/chart-area-demo.js"/>"></script>
