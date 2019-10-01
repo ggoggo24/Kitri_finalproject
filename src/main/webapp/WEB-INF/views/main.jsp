@@ -104,7 +104,7 @@
 		<!-- Sidebar -->
 		<ul class="sidebar navbar-nav">
 			<li class="nav-item active"><a class="nav-link"
-				href="main"> <i class="fas fa-fw fa-tachometer-alt"></i> <span>Dashboard</span>
+				href="/"> <i class="fas fa-fw fa-tachometer-alt"></i> <span>Dashboard</span>
 			</a></li>
 			<li class="nav-item dropdown"><a
 				class="nav-link dropdown-toggle" href="#" id="pagesDropdown"
@@ -122,7 +122,7 @@
 					<a class="dropdown-item" href="404.html">404 Page</a> <a
 						class="dropdown-item" href="blank.html">Blank Page</a>
 				</div></li>
-			<li class="nav-item"><a class="nav-link" href="charts">
+			<li class="nav-item"><a class="nav-link" href="calendar">
 					<i class="fas fa-fw fa-chart-area"></i> <span>Charts</span>
 			</a></li>
 			<li class="nav-item"><a class="nav-link" href="tables">
